@@ -1,0 +1,23 @@
+/* Joke.css */
+.Joke {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Joke-text {
+  flex: 1;
+}
+
+.Joke-votes {
+  display: flex;
+  align-items: center;
+}
+
+.Joke-votes button {
+  margin: 0 0.5rem;
+}
